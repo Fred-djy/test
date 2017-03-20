@@ -1,0 +1,4 @@
+services:
+#    caishen.example:
+#        class: CaishenBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

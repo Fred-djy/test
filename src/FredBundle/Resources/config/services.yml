@@ -1,0 +1,4 @@
+services:
+#    fred.example:
+#        class: FredBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

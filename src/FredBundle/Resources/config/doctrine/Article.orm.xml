@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="FredBundle\Entity\Article" table="article">
+    <indexes>
+      <index name="ix_articlre_creatime" columns="create_time"/>
+    </indexes>
+    <unique-constraints>
+      <unique-constraint name="ix_article_id" columns="id"/>
+    </unique-constraints>
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="createTime" type="datetime" column="create_time" nullable="false"/>
+  </entity>
+</doctrine-mapping>

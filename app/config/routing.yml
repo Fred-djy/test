@@ -1,0 +1,29 @@
+fred:
+    resource: "@FredBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+caishen:
+    resource: "@CaishenBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+caishe:
+    resource: "@CaisheBundle/Resources/config/routing.yml"
+    prefix:   /
+
+api:
+    resource: "@ApiBundle/Resources/config/routing.xml"
+    prefix:   /
+
+app_alipay:
+    resource: "@AppAlipayBundle/Resources/config/routing.php"
+    prefix:   /
+
+noel_web:
+    resource: "@NoelWebBundle/Resources/config/routing.xml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
